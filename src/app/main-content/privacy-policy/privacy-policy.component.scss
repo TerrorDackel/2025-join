@@ -58,3 +58,9 @@
     padding-left: 0rem;
   }
 }
+
+@media (max-width: 1400px) {
+  .section-privacy-policy {
+    max-height: calc(100svh - (96px + 80px));
+  }
+}
