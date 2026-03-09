@@ -14,6 +14,10 @@
 
 .section-privacy-policy {
   max-width: calc($appMaxWidth - $navbar-width);
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   
   h2 {
     width: 100%;
@@ -36,6 +40,10 @@
 
   p {
     font-size: 1rem;
+  }
+  .collection-data-list,
+  .rights-list {
+    padding: 0 0 0 2rem;
   }
 
   .paragraph {

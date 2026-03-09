@@ -7,13 +7,19 @@
   width: 100%;
   height: auto;
   overflow-y: auto;
-  padding: 30px;
+  padding: 2rem;
   font-family: "Inter", sans-serif;
   max-height: calc(100% - (96px));
 }
 
 .section-legal-notice {
   max-width: calc($appMaxWidth - $navbar-width);
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   
   h2 {
     width: 100%;
