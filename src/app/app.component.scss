@@ -28,6 +28,13 @@ app-header {
   width: 100%;
 }
 
+.main-content {
+  max-height: calc(100svh - 96px);
+  width: auto;
+  overflow: hidden;
+
+}
+
 app-login {
   display: block;
   width: 100%;

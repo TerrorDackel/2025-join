@@ -14,10 +14,14 @@
 
 .section-privacy-policy {
   max-width: calc($appMaxWidth - $navbar-width);
-  padding: 1rem 2rem;
+  width: 100%;
+  height: calc(100svh - 96px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow-y: auto;
+  padding: 1rem;
   
   h2 {
     width: 100%;
