@@ -19,7 +19,7 @@
 
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1150px) {
 
   .board-section {
     display: flex;
@@ -154,6 +154,8 @@
     }
   }
 
+  
+
   .board-column-header {
     margin-top: 5px;
     margin-bottom: 0;
@@ -176,4 +178,15 @@
     }
   }
 
+}
+
+@media screen and (max-width: 550px) {
+
+  .board-column {
+    display: flex;
+
+    ul {
+      flex-direction: column;
+    }
+  }
 }
